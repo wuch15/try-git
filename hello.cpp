@@ -24,6 +24,6 @@ typedef vector<PII> VII;
 
 int main()
 {
-	cout << "Hello World!" << endl << "Hello Git!" << endl;
+	cout << "Hello World!" << endl << "Hello Git!" << endl << "Hello Git and World" << endl;
 	return 0;
 }
