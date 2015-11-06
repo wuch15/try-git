@@ -39,3 +39,6 @@ zzz
 ### ZXCroon
 563D7C
 
+### ganmaolin
+
+    printf("千万颜值鸭梨大。");
