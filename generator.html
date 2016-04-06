@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+</body>
+<script>
+	//<![CDATA[
+		e=document.createElement("canvas")
+		e.height=200
+		e.width=200
+		c=e.getContext("2d")
+		i=document.createElement("img")
+		i.src="https://avatars0.githubusercontent.com/u/3843569?v=3&s=200"
+		i.crossOrigin="anonymous"
+		i.addEventListener("load",function(){
+			c.drawImage(i,0,0)
+			d=c.getImageData(0,0,200,200).data
+			s=[]
+			for(i=0;i<40000;i++){
+				s[i]=(i%200-200)+"px "+((i-i%200)/200-200)+"px "+"rgba("+d[4*i]+","+d[4*i+1]+","+d[4*i+2]+","+(d[4*i+3])/255+")"
+			}
+			document.body.innerHTML="<pre>"+s.join(",\n")+"</pre>"
+		})
+	//]]
+</script>
+</html>
