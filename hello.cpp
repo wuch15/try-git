@@ -27,6 +27,6 @@ int main()
 	cout << "Hello World!" << endl << "Hello Git!" << endl << "Hello Git and World" << endl;
 	cout<<"try to change and push!"<< endl;
 	cout<<"续一秒"<<endl;
-	cout<<"续两秒"<<endl; 
+	cout<<"续2147483647秒"<<endl; 
 	return 0;
 }
