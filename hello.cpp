@@ -1,4 +1,4 @@
-#include <cstdio>
+﻿#include <cstdio>
 #include <cstdlib>
 #include <iostream>
 #include <cstring>
@@ -26,6 +26,7 @@ int main()
 	cout << "Hello World!" << endl << "Hello Git!" << endl << "Hello Git and World" << endl;
 	cout<<"try to change and push!"<< endl;
 	cout<<"续1秒"<<endl;
+cout<<"为什么你这么熟练啊！"<<endl;
 	cout<<"续2147483647秒"<<endl; 
 	return 0;
 }
