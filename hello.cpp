@@ -20,7 +20,6 @@ using namespace std;
 typedef pair<int,int> PII;
 typedef long long LL;
 typedef vector<int> VI;
-typedef vector<PII> VII;
 
 int main()
 {
